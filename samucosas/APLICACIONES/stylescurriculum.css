@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration: underline;
+color: #1F497D;
+background-color:  #BFBFBF;
+font-size: 24px;
+letter-spacing: 0,5;
+word-spacing: 1,5;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #632423;
+    font-size: 18px;
+    letter-spacing: 0,5;
+    
+}
+ul {
+font-style: italic;
+font-weight: bold;
+}
+strong {
+    font-weight: normal;
+    font-variant: small-caps;
+}
+img {
+    float: right;
+    height: 200px;
+    width: 200px;
+}
