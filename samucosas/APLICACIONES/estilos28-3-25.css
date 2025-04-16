@@ -1,0 +1,34 @@
+h1 {
+    color:blue;
+    text-align:center;
+}
+h2 {
+    color: crimson;
+    text-align:center;
+}
+h3 {
+    color: royalblue;
+    text-align:left;
+}
+h4 {
+    color: darkgray;
+    text-align:right;
+}
+h5 {
+    color: darkolivegreen;
+    text-align:center;
+}
+h6 {
+    color: darkturquoise;
+    text-align:justify;
+}
+span {
+    color:blueviolet;
+    font-size: xx-small;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul, li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
