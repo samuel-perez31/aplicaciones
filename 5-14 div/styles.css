@@ -1,0 +1,19 @@
+#titulo {
+    text-decoration: underline;
+    color: midnightblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-color: lightsteelblue;
+}
+.caja {
+    background-color: #f2f2f2;
+margin: 10px;
+padding: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img {
+    float: right;
+    height: 100px;
+    width: 100px;
+}
