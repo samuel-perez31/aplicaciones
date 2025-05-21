@@ -1,0 +1,18 @@
+.titulo{
+    background-color: lightcyan; 
+color: black;
+padding: 20px;
+text-align: center;
+margin: 15px;
+}
+#tarjeta{
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #e0f7fa;
+    width: 250px;
+}
+img{
+    text-align: center;
+}
