@@ -1,0 +1,19 @@
+.tabla {
+    text-align: center;
+    
+}
+tbody{
+    background-color: teal;
+    font-style: oblique;
+    border: solid 2px red;
+}
+th {
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+caption {
+    font-family: cursive;
+}
+tfoot {
+    background-color: aquamarine;
+}
