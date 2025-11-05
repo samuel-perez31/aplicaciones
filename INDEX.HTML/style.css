@@ -1,0 +1,113 @@
+/* Paleta de colores cálida: 
+   - Fondo: #FFF8E1 (Amarillo muy claro, casi crema)
+   - Resalte/Principal: #FFB300 (Naranja ámbar, cálido y vibrante)
+   - Texto: #4E342E (Marrón oscuro, cálido)
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Fuente familiar y legible */
+    background-color: #FFF8E1; /* Fondo muy claro */
+    color: #4E342E; /* Texto marrón oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    background-color: #FFFFFF; /* Contenedor en blanco para contraste */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #FFB300; /* Color principal cálido */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #FFB300;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.explanation-box {
+    text-align: justify;
+    padding: 10px;
+    background-color: #FFFDE7; /* Un toque más oscuro que el fondo del body */
+    border-left: 5px solid #FFB300; /* Barra lateral de resalte */
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+.explanation-box p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el botón de interacción (JavaScript) */
+#toggle-button {
+    background-color: #FFB300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s;
+}
+
+#toggle-button:hover {
+    background-color: #FF8F00; /* Tono más oscuro al pasar el mouse */
+}
+
+#toggle-button:active {
+    transform: scale(0.98);
+}
+/* ... (El resto del CSS existente, body, container, title, etc., permanece igual) ... */
+
+/* --- Estilos para la Imagen (NUEVOS) --- */
+
+/* ... (Parte superior de tu CSS) ... */
+
+/* --- Estilos para la Imagen (Asegura que solo una se vea) --- */
+
+/* --- Estilos para la Imagen (AJUSTADO PARA ELIMINAR ESPACIO FIJO) --- */
+
+.image-container {
+    text-align: center; 
+    /* AJUSTE CLAVE: Reducimos el margen inferior */
+    margin-bottom: 15px; /* De 30px a 15px para acercar al texto */
+    
+    /* ELIMINADO: 'position: relative;' y 'height: 300px;' */
+    /* Dejamos que el alto del contenedor se ajuste automáticamente a la imagen */
+}
+
+.hosting-image {
+    max-width: 70%; 
+    height: auto; 
+    /* display: block y margin: 0 auto mantienen el centrado */
+    display: block; 
+    margin: 0 auto; 
+    border: 4px solid #FFB300; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    
+    /* AJUSTE CLAVE: Eliminamos las propiedades de posicionamiento absoluto */
+    /* ELIMINADO: 'position: absolute;', 'top: 0;', 'left: 50%;', 'transform: translateX(-50%);' */
+    
+    /* El resto permanece igual para el carrusel */
+    display: none; 
+}
+
+/* REGLA CLAVE: Muestra solo la imagen que tiene la clase 'active' */
+.hosting-image.active {
+    display: block; 
+}
+
+/* ... (Resto de tu CSS) ... */
